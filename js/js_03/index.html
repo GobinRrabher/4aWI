@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Rechner</h1>
+        <label for="num1">1st number: </label>
+        <input type="text" id="num1" name="num1" value=""></input>
+
+        <label for="operator">Choose a operation</label>
+        <select name="operator" id="operation">
+            <option value="add">+</option>
+            <option value="sub">-</option>
+            <option value="mul">*</option>
+            <option value="div">/</option>
+        </select>
+
+        <label for="num2">2nd number:</label>
+        <input type="text" id="num2" name="num2" value=""></input>
+        <button onclick="calculate()">Calculate</button><br><br>
+        <!--<input type="reset"></input>-->
+    <div id="output"></div>
+</body>
+</html>
