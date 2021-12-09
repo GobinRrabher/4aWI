@@ -9,12 +9,29 @@
 </head>
 <body>
     <h1>Todos</h1>
-    <label for="num1">Between: </label>
-    <input type="text" id="num1" name="num1" value=""></input>
-    <label for="num2">and:</label>
-    <input type="text" id="num2" name="num2" value=""></input>
+    <label for="length">Between: </label>
+    <input type="text" id="length" name="length" value=""></input>
+    <div>
+        <input type="checkbox" id="lowercase" name="lowercase" value="lowercase"
+               checked>
+        <label for="scales">Lowercase letters</label>
+    </div>
+    <div>
+        <input type="checkbox" id="uppercase" name="uppercase" value="uppercase"
+               checked>
+        <label for="scales">Uppercase letters</label>
+    </div>
+    <div>
+        <input type="checkbox" id="numbers" name="numbers" value="numbers"
+               checked>
+        <label for="scales">Numbers</label>
+    </div>
+    <div>
+        <input type="checkbox" id="special" name="special" value="special"
+               checked>
+        <label for="scales">Special characters</label>
+    </div>
     <button onclick="generate()">Generate</button><br><br>
-    <!--<input type="reset"></input>-->
 <div id="output"></div>
 </body>
 </html>
