@@ -8,14 +8,9 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Todos</h1>
-    <label for="length">Between: </label>
-    <input type="text" id="length" name="length" value=""></input>
-    <div>
-        <input type="checkbox" id="lowercase" name="lowercase" value="lowercase"
-               checked>
-        <label for="scales">Lowercase letters</label>
-    </div>
+    <h1>Password generator</h1>
+    <label for="length">Length: </label>
+    <input type="text" id="length" name="length" value=0></input><br></br>
     <div>
         <input type="checkbox" id="uppercase" name="uppercase" value="uppercase"
                checked>
@@ -29,9 +24,22 @@
     <div>
         <input type="checkbox" id="special" name="special" value="special"
                checked>
-        <label for="scales">Special characters</label>
+        <label for="scales">Special characters</label><br></br>
     </div>
     <button onclick="generate()">Generate</button><br><br>
 <div id="output"></div>
+
+<style>
+    h1{
+        font-family: "Comic Sans MS", "Arial", sans-serif;
+    }
+    p{
+        font-family: "Comic Sans MS", "Arial", sans-serif;
+    }
+    input[type="checkbox"]{
+        transform: scale(1.5);
+    }
+</style>
+
 </body>
 </html>
