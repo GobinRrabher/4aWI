@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(95, 92, 92);
+}
+
+.wrapper {
+    background-color: rgb(134, 143, 86);
+    width: 34vw;
+    height: 34vh;
+    position: absolute;
+    top: 33vh;
+    left: 33vw;
+}
+
+.inputs{
+    position: absolute;
+    top: 6vh;
+    left: 2vw;
+}
+
+.button {
+    position: absolute;
+    top: 25vh;
+    left: 2vw;
+}
+
+.output{
+    background-color: white;
+    position: absolute;
+    top: 6vh;
+    left: 18vw;
+    width: 22vh;
+    height: 22vh;
+
+}
+
+button{
+    width: 12.5vw;
+    height: 3.5vh;
+    background-color: darkred;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: red;
+}
+
+button:active{
+    background-color: rgb(255, 60, 60);
+}
+
+input{
+    width: 12vw;
+    height: 3vh;
+    border-radius: 5px;
+}

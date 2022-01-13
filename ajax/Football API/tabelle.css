@@ -1,0 +1,13 @@
+.top{
+    position: absolute;
+    width: 1338px;
+    height: 211px;
+    left: 51px;
+    top: 51px;
+
+    background: rgba(90, 174, 124, 0.5);
+}
+
+p{
+    background-color: rgba(90, 174, 124, 0.5);
+}
