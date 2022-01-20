@@ -11,11 +11,12 @@ fetch(urlTeams,{
 .then(function (data){
     html = "";
     data.teams.forEach(element => {
-        html += "<ul><li><img height='50px' src='" + element.crestUrl + "'/>" + "</li>";
-        html += "<li>"+ element.clubColors + "</li>";
-        html += "<li>"+ element.name + "</li></ul>";
+        html += "<ul><li>" + element.address + "</li>";
+        html += "<li>"+ element.phone + "</li>";
+        html += "<li>"+ element.website + "</li>";
+        html += "<li>"+ element.email + "</li></ul>";
         html += "______________________________________________________<br><br>"
 
     });
-    document.getElementById("teams").innerHTML = html;
+    document.getElementById("contact").innerHTML = html;
 })

@@ -29,7 +29,6 @@ function generate(){
     for (let i = 0; i < arr.length; i++) {
         output += arr[i] + ",";
     }
-    if(output == "undefined0") output = "Positiv<br>0";
     output = output.slice(0, output.length - 1);
     console.log(output)
     document.getElementById("output").innerHTML = output;
