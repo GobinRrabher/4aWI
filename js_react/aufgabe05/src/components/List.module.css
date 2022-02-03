@@ -1,0 +1,15 @@
+.list li{
+    background-color: rgb(18, 138, 126);
+    color: white;
+    text-align: left;
+    list-style-type: none;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    width: 160px;
+    padding: 30px;
+}
+
+.list li:hover{
+    background-color: rgb(43, 160, 148);
+}
